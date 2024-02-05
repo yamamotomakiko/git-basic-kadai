@@ -1,0 +1,35 @@
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS
+$ mkdir git_challenge
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS
+$ cd git_challenge/
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/makik/OneDrive/Desktop/HTML_CSS/git_challenge/.git/
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge (main)
+$ echo "Hello,world!" > hello_world.txt
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge (main)
+$ git commit -m "hello_world.txt追加"
+[main (root-commit) 05ea5cb] hello_world.txt追加
+ 1 file changed, 1 insertion(+)
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main d54b101] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+makik@makiko-note MINGW64 ~/OneDrive/Desktop/HTML_CSS/git_challenge (main)
+$
+git log --oneline
+d54b101 (HEAD -> main) 日本語訳を追記
+05ea5cb hello_world.txt追加
